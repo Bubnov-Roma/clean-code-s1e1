@@ -20,6 +20,17 @@ body {
     font-family: fantasy, cursive;
 }
 
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    visibility: hidden;
+    margin: -1;
+    padding: 0;
+    clip: rect(0 0 0 0);
+}
+
 @media (max-width: 768px) {
     
     .header { 
