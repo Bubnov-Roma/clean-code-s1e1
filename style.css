@@ -35,7 +35,7 @@
 .add-item-text {
   display: flex;
 }
-ul {
+section {
   margin: 0;
   padding: 0px;
 }
@@ -131,21 +131,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+section#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+section li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+section li.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+section li.edit-mode label {
   display: none;
 }
